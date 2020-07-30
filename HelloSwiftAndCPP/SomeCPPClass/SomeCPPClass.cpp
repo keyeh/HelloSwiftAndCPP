@@ -10,10 +10,12 @@
 
 
 #include "SomeCPPClass.h"
+#include "Analyze5.h"
 
 
 int Foo::addNums(int x, int y)
 {
+    analyze5();
     return x + y;
 }
 

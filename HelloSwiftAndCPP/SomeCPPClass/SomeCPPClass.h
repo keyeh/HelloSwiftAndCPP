@@ -21,7 +21,7 @@ public:
     
     Foo()
     {
-        cout << "In the foo!" << endl;
+        cout << "In Foo SomeCPPClass" << endl;
         
         string someString("hello from a C++ constructor!");
         cout << someString << endl;

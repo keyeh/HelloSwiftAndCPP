@@ -10,6 +10,12 @@
 		0FB0086A1949E50A0014F78F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB008691949E50A0014F78F /* main.swift */; };
 		0FB00875194A1BE40014F78F /* SomeCPPClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FB00874194A1BE40014F78F /* SomeCPPClass.cpp */; };
 		0FB0087B194A23AF0014F78F /* ObjCpp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0FB0087A194A23AF0014F78F /* ObjCpp.mm */; };
+		3A90705024D37C2E00BD2A47 /* PlayingCard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A90704224D37C2D00BD2A47 /* PlayingCard.cpp */; };
+		3A90705124D37C2E00BD2A47 /* HandAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A90704524D37C2E00BD2A47 /* HandAnalysis.cpp */; };
+		3A90705224D37C2E00BD2A47 /* PlayingCardDeck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A90704624D37C2E00BD2A47 /* PlayingCardDeck.cpp */; };
+		3A90705424D37C2E00BD2A47 /* JBEvaluator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A90704924D37C2E00BD2A47 /* JBEvaluator.cpp */; };
+		3A90705624D37C2E00BD2A47 /* DWEvaluator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A90704E24D37C2E00BD2A47 /* DWEvaluator.cpp */; };
+		3A90705824D37E3100BD2A47 /* Analyze5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A90705724D37E3100BD2A47 /* Analyze5.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +38,19 @@
 		0FB00874194A1BE40014F78F /* SomeCPPClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SomeCPPClass.cpp; sourceTree = "<group>"; };
 		0FB00879194A23AF0014F78F /* ObjCpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCpp.h; sourceTree = "<group>"; };
 		0FB0087A194A23AF0014F78F /* ObjCpp.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ObjCpp.mm; sourceTree = "<group>"; };
+		3A90704224D37C2D00BD2A47 /* PlayingCard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlayingCard.cpp; sourceTree = "<group>"; };
+		3A90704324D37C2D00BD2A47 /* JBEvaluator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBEvaluator.h; sourceTree = "<group>"; };
+		3A90704424D37C2E00BD2A47 /* HandAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandAnalysis.h; sourceTree = "<group>"; };
+		3A90704524D37C2E00BD2A47 /* HandAnalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HandAnalysis.cpp; sourceTree = "<group>"; };
+		3A90704624D37C2E00BD2A47 /* PlayingCardDeck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlayingCardDeck.cpp; sourceTree = "<group>"; };
+		3A90704724D37C2E00BD2A47 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		3A90704924D37C2E00BD2A47 /* JBEvaluator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JBEvaluator.cpp; sourceTree = "<group>"; };
+		3A90704A24D37C2E00BD2A47 /* IEvaluator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEvaluator.h; sourceTree = "<group>"; };
+		3A90704B24D37C2E00BD2A47 /* DWEvaluator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWEvaluator.h; sourceTree = "<group>"; };
+		3A90704C24D37C2E00BD2A47 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		3A90704E24D37C2E00BD2A47 /* DWEvaluator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DWEvaluator.cpp; sourceTree = "<group>"; };
+		3A90705724D37E3100BD2A47 /* Analyze5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Analyze5.cpp; sourceTree = "<group>"; };
+		3A90705924D37F3700BD2A47 /* Analyze5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Analyze5.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +83,43 @@
 		0FB008681949E50A0014F78F /* HelloSwiftAndCPP */ = {
 			isa = PBXGroup;
 			children = (
+				3A90704024D37C0800BD2A47 /* VPAnalysisCPP */,
+				3A90703F24D37BBF00BD2A47 /* SomeCPPClass */,
 				0FB008691949E50A0014F78F /* main.swift */,
-				0FB00874194A1BE40014F78F /* SomeCPPClass.cpp */,
-				0FB008731949E5C50014F78F /* SomeCPPClass.h */,
 				0FB008701949E5550014F78F /* HelloSwiftAndCPP-Bridging-Header.h */,
 				0FB00879194A23AF0014F78F /* ObjCpp.h */,
 				0FB0087A194A23AF0014F78F /* ObjCpp.mm */,
 			);
 			path = HelloSwiftAndCPP;
+			sourceTree = "<group>";
+		};
+		3A90703F24D37BBF00BD2A47 /* SomeCPPClass */ = {
+			isa = PBXGroup;
+			children = (
+				0FB00874194A1BE40014F78F /* SomeCPPClass.cpp */,
+				0FB008731949E5C50014F78F /* SomeCPPClass.h */,
+			);
+			path = SomeCPPClass;
+			sourceTree = "<group>";
+		};
+		3A90704024D37C0800BD2A47 /* VPAnalysisCPP */ = {
+			isa = PBXGroup;
+			children = (
+				3A90705724D37E3100BD2A47 /* Analyze5.cpp */,
+				3A90705924D37F3700BD2A47 /* Analyze5.h */,
+				3A90704E24D37C2E00BD2A47 /* DWEvaluator.cpp */,
+				3A90704B24D37C2E00BD2A47 /* DWEvaluator.h */,
+				3A90704524D37C2E00BD2A47 /* HandAnalysis.cpp */,
+				3A90704424D37C2E00BD2A47 /* HandAnalysis.h */,
+				3A90704A24D37C2E00BD2A47 /* IEvaluator.h */,
+				3A90704924D37C2E00BD2A47 /* JBEvaluator.cpp */,
+				3A90704324D37C2D00BD2A47 /* JBEvaluator.h */,
+				3A90704224D37C2D00BD2A47 /* PlayingCard.cpp */,
+				3A90704C24D37C2E00BD2A47 /* PlayingCard.h */,
+				3A90704624D37C2E00BD2A47 /* PlayingCardDeck.cpp */,
+				3A90704724D37C2E00BD2A47 /* PlayingCardDeck.h */,
+			);
+			path = VPAnalysisCPP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,7 +148,7 @@
 		0FB0085E1949E50A0014F78F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1030;
+				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = "Ron Olson";
 				TargetAttributes = {
 					0FB008651949E50A0014F78F = {
@@ -131,9 +179,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A90705124D37C2E00BD2A47 /* HandAnalysis.cpp in Sources */,
+				3A90705224D37C2E00BD2A47 /* PlayingCardDeck.cpp in Sources */,
+				3A90705024D37C2E00BD2A47 /* PlayingCard.cpp in Sources */,
 				0FB0087B194A23AF0014F78F /* ObjCpp.mm in Sources */,
+				3A90705624D37C2E00BD2A47 /* DWEvaluator.cpp in Sources */,
 				0FB00875194A1BE40014F78F /* SomeCPPClass.cpp in Sources */,
+				3A90705424D37C2E00BD2A47 /* JBEvaluator.cpp in Sources */,
 				0FB0086A1949E50A0014F78F /* main.swift in Sources */,
+				3A90705824D37E3100BD2A47 /* Analyze5.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -260,6 +315,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
