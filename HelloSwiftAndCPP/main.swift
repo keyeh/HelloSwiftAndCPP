@@ -6,13 +6,11 @@
 //  Copyright (c) 2014 Ron Olson. All rights reserved.
 //
 
+// The main program that calls both Objective C and C++ (via Objective C++) code
+
 import Foundation
 
 print("Hello, World!")
-
-let foo = XYZSomething()
-
-print("Val is \(foo.addX(50, andY: 50))")
 
 let bar = ABCpp();
 

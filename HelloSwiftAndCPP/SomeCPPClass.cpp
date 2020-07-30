@@ -6,6 +6,9 @@
 //  Copyright (c) 2014 Ron Olson. All rights reserved.
 //
 
+// A regular C++ class using iostream and string
+
+
 #include "SomeCPPClass.h"
 
 

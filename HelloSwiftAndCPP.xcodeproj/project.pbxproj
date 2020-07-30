@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0FB0086A1949E50A0014F78F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB008691949E50A0014F78F /* main.swift */; };
 		0FB00875194A1BE40014F78F /* SomeCPPClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FB00874194A1BE40014F78F /* SomeCPPClass.cpp */; };
-		0FB00878194A22390014F78F /* XYZSomething.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB00877194A22390014F78F /* XYZSomething.m */; };
 		0FB0087B194A23AF0014F78F /* ABCpp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0FB0087A194A23AF0014F78F /* ABCpp.mm */; };
 /* End PBXBuildFile section */
 
@@ -31,8 +30,6 @@
 		0FB008701949E5550014F78F /* HelloSwiftAndCPP-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloSwiftAndCPP-Bridging-Header.h"; sourceTree = "<group>"; };
 		0FB008731949E5C50014F78F /* SomeCPPClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SomeCPPClass.h; sourceTree = "<group>"; };
 		0FB00874194A1BE40014F78F /* SomeCPPClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SomeCPPClass.cpp; sourceTree = "<group>"; };
-		0FB00876194A22390014F78F /* XYZSomething.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZSomething.h; sourceTree = "<group>"; };
-		0FB00877194A22390014F78F /* XYZSomething.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZSomething.m; sourceTree = "<group>"; };
 		0FB00879194A23AF0014F78F /* ABCpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCpp.h; sourceTree = "<group>"; };
 		0FB0087A194A23AF0014F78F /* ABCpp.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ABCpp.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,8 +68,6 @@
 				0FB00874194A1BE40014F78F /* SomeCPPClass.cpp */,
 				0FB008731949E5C50014F78F /* SomeCPPClass.h */,
 				0FB008701949E5550014F78F /* HelloSwiftAndCPP-Bridging-Header.h */,
-				0FB00876194A22390014F78F /* XYZSomething.h */,
-				0FB00877194A22390014F78F /* XYZSomething.m */,
 				0FB00879194A23AF0014F78F /* ABCpp.h */,
 				0FB0087A194A23AF0014F78F /* ABCpp.mm */,
 			);
@@ -137,7 +132,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FB0087B194A23AF0014F78F /* ABCpp.mm in Sources */,
-				0FB00878194A22390014F78F /* XYZSomething.m in Sources */,
 				0FB00875194A1BE40014F78F /* SomeCPPClass.cpp in Sources */,
 				0FB0086A1949E50A0014F78F /* main.swift in Sources */,
 			);
