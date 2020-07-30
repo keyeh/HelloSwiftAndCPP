@@ -1,5 +1,5 @@
 //
-//  ABCpp.m
+//  ObjCpp.m
 //  HelloSwiftAndCPP
 //
 //  Created by Ron Olson on 6/12/14.
@@ -7,10 +7,10 @@
 //
 //  Objective C++ class that uses SomeCPPClass
 
-#import "ABCpp.h"
+#import "ObjCpp.h"
 #include "SomeCPPClass.h"
 
-@implementation ABCpp
+@implementation ObjCpp
 
 -(int)playWithFoo
 {

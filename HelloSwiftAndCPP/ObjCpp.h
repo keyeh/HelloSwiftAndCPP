@@ -1,5 +1,5 @@
 //
-//  ABCpp.h
+//  ObjCpp.h
 //  HelloSwiftAndCPP
 //
 //  Created by Ron Olson on 6/12/14.
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface ABCpp : NSObject
+@interface ObjCpp : NSObject
 
 -(int)playWithFoo;
 

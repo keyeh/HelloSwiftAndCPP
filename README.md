@@ -12,10 +12,7 @@ SomeCPPClass.cpp/h
 HelloSwiftAndCPP-Bridging-Header.h
   - The file necessary to expose the Objective C/C++ classes to Swift
   
-XYZSomething.m/h
-  - Basic Objective C class
-  
-ABCpp.mm/h
+ObjCpp.mm/h
   - Objective C++ class that uses SomeCPPClass
   
   

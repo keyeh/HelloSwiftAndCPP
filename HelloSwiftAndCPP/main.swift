@@ -12,6 +12,6 @@ import Foundation
 
 print("Hello, World!")
 
-let bar = ABCpp();
+let bar = ObjCpp();
 
 print("And from CPP the value is \(bar.playWithFoo())")
